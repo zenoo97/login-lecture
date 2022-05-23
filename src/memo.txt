@@ -32,5 +32,21 @@ git init
 README.md, .gitignore 만들기
 git status => 깃허브에 업로드 될 파일들 목록 보기
 
-git add .
--> 모든 파일 깃허브에 업로드
+
+
+1) git add .
+-> 모든 파일 스테이징 area에 올린 것
+
+2) git commit -m "깃 저장소 초기화" 
+
+3) git remote add origin https://github.com/zenoo97/login-lecture.git(깃 주소)
+                   이름
+4) git push origin master(깃 업로드)
+
+
+< git clone >
+
+git clone https://github.com/zenoo97/login-lecture login-lecture2
+                                                     사용할 이름
+
+가져와서 package.json이 있으면 npm install로 설치 가능
