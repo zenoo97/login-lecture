@@ -1,0 +1,6 @@
+/node_modules
+# 유출이 되면 안되는 파일 작성하는 곳
+
+# git init
+# git status 
+# => 깃허브에 업로드 될 파일들 목록
